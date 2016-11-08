@@ -1,10 +1,10 @@
 import { Component } from "@angular/core";
-//import template from "./app.component.jade";
+import template from "./app.component.jade";
 import style from "./app.component.scss";
 
 @Component({
   selector: "app",
-  template: require('./app.component.jade'),
+  template,
   styles: [ style ]
 })
 export class AppComponent {
